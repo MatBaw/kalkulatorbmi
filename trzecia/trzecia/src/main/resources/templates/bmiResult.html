@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>BMI Result</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Twoje wyniki BMI</h1>
+<p>Twoje BMI wynosi: <span th:text="${bmi}">BMI</span></p>
+<p>Jest to: <span th:text="${result}">Result</span></p>
+<a href="/">Oblicz ponownie</a>
+</body>
+</html>
